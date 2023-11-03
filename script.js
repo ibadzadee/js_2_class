@@ -64,5 +64,9 @@ function Calculate(eded_1, eded_2, operator) {
 }
 console.log(Calculate("sagol","salam","/"))
 
-// 3
-// function Exam(giris_bal,)
+
+// praktika
+const tipCalculator = hesab => hesab >= 50 && hesab <= 300 ? hesab * 0.15 : hesab * 0.2
+const calculator = tamHesab => tamHesab + tipCalculator(tamHesab)
+
+console.log(calculator(300))
